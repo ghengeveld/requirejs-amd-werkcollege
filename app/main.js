@@ -3,7 +3,7 @@
  */
 define(function() {
 
-  // TODO: (3) load widget module (should show 'Hello world!')
+  require(['app/widget']);
 
   var isMobile = window.matchMedia('(max-width: 767px)').matches;
 
