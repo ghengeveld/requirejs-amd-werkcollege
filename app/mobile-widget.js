@@ -1,9 +1,7 @@
 /**
  * Widget module for mobile
  */
-define(function() {
-
-  // TODO: (2) load jquery as $
+define(['jquery'], function ($) {
 
   $('.widget').text('Hello mobile!');
 

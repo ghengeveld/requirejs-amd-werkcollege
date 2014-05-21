@@ -1,9 +1,7 @@
 /**
  * Widget module
  */
-define(function() {
-
-  // TODO: (2) load jquery as $
+define(['jquery'], function ($) {
 
   $('.widget').text('Hello world!');
 
