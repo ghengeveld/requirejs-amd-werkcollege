@@ -19,7 +19,6 @@
    * Bootstrap the main module.
    * @see http://requirejs.org/docs/api.html#define for ways to define a module
    */
-  // TODO: enable this after implementing the main module:
-  // require(['app/main']);
+  require(['app/main']);
 
 })();
