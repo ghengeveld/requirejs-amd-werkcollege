@@ -1,5 +1,18 @@
 # Werkcollege RequireJS + AMD
 
+### Installatie
+
+Check de code uit:
+
+    git clone https://github.com/ghengeveld/requirejs-amd-werkcollege
+
+Start een webserver:
+
+    cd requirejs-amd-werkcollege
+    python -m SimpleHTTPServer 9999
+
+Ga naar http://localhost:9999/
+
 ### Slides:
 
 https://docs.google.com/presentation/d/11huuvi2RO0_yNIppSV_ZYuLYReN-DBlYtx4PIZAo8EE
@@ -13,9 +26,6 @@ https://docs.google.com/presentation/d/11huuvi2RO0_yNIppSV_ZYuLYReN-DBlYtx4PIZAo
 5. Geef de widgets een methode, die je aanroept vanuit main
 
 ### Tips
-
-- Met `python -m SimpleHTTPServer 9999` kun je een webserver starten zodat de
-  applicatie beschikbaar is op http://localhost:9999
 
 - In de code staan TODO comments voor de opdrachten.
 
