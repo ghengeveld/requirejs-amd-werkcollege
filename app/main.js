@@ -3,11 +3,10 @@
  */
 define(function() {
 
-  require(['app/widget']);
-
   var isMobile = window.matchMedia('(max-width: 767px)').matches;
 
-  // TODO: (4) load mobile widget module when applicable (should show 'Hello mobile!')
+  require([isMobile ? 'app/mobile-widget' : 'app/widget']);
+
   // TODO: (5) call widget.myMethod()
 
 });
